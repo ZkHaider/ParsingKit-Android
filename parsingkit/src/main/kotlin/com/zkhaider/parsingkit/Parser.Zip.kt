@@ -14,3 +14,11 @@ public fun <A, B> zip(a: Parser<A>,
         return@Parser null
     }
 }
+
+public fun <A, B, C> zip(a: Parser<A>,
+                         b: Parser<B>,
+                         c: Parser<C>): Parser<Triple<A, B, C>> {
+    return zip(a, zip(b, c)).map { (a, bc) ->
+        Triple(a, bc.first, bc.second)
+    }
+}
