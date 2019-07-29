@@ -1,4 +1,4 @@
-
+package com.zkhaider.parsingkit
 
 public typealias ParseFunction<T> = (StringBuffer) -> T?
 

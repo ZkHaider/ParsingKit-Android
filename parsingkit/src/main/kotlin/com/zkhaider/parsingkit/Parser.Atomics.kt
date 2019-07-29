@@ -1,3 +1,4 @@
+package com.zkhaider.parsingkit
 
 public fun Parser.Companion.never(): Parser<Unit> {
     return Parser { Unit }

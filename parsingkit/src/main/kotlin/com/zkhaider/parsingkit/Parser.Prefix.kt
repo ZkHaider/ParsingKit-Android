@@ -1,3 +1,4 @@
+package com.zkhaider.parsingkit
 
 public fun Parser.Companion.prefix(predicate: (Char) -> Boolean): Parser<StringBuffer> {
     return Parser {

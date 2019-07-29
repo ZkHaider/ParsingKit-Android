@@ -1,3 +1,4 @@
+package com.zkhaider.parsingkit
 
 public fun <A, B> zip(a: Parser<A>,
                       b: Parser<B>): Parser<Pair<A, B>> {

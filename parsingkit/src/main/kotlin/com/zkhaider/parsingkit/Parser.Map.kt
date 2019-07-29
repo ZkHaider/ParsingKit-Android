@@ -1,3 +1,4 @@
+package com.zkhaider.parsingkit
 
 public fun <T, A> Parser<T>.map(f: (T) -> A): Parser<A> {
     return Parser {

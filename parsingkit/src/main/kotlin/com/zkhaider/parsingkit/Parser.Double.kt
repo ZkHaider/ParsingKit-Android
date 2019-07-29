@@ -1,3 +1,4 @@
+package com.zkhaider.parsingkit
 
 public fun Parser.Companion.double(): Parser<Double> {
     return Parser {

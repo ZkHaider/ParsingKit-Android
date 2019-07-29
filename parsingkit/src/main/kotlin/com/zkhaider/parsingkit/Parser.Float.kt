@@ -1,3 +1,4 @@
+package com.zkhaider.parsingkit
 
 public fun Parser.Companion.float(): Parser<Float> {
     return Parser {
